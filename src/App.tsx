@@ -278,7 +278,6 @@ function useGuess(): [
   const [guess, setGuess] = useState('');
   const addGuessLetter = (letter: string) => {
     letter = letter.toLowerCase()
-    console.log(letter)
     setGuess((curGuess) => {
       const newGuess =
         letter.length === 1 && curGuess.length !== WORD_LENGTH
@@ -304,7 +303,6 @@ function useGuess(): [
 
   const onKeyDown = (e: KeyboardEvent) => {
     let letter = e.key;
-    console.log(e)
     addGuessLetter(letter);
   };
 
