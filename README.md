@@ -1,7 +1,10 @@
-# STEPS TO RUN APP
+# Pasos para ejecutar la aplicación
 
-  yarn install : para descargar las dependencias
-  yarn test : para ejecutar los test
-  yarn dev : para ejecutar la aplicación
+  
+  1. **yarn install** : para descargar las dependencias.  
+  
+  2. **yarn test** : para ejecutar los test.  
+
+  3. **yarn dev** : para ejecutar la aplicación.
 
 
